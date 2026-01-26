@@ -683,6 +683,11 @@ require('lazy').setup({
         -- But for many setups, the LSP (`ts_ls`) will work just fine
         -- ts_ls = {},
         --
+        omnisharp = {
+          organize_imports_on_format = true,
+          enable_import_completion = true,
+        },
+
 
         lua_ls = {
           -- cmd = { ... },
